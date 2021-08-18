@@ -235,7 +235,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
