@@ -61,7 +61,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.snanrange;
+})();
 })();
 </script>
 ```
@@ -177,6 +179,7 @@ var v = snanrange.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanrange@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -194,6 +197,7 @@ console.log( x );
 var v = snanrange( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -293,21 +297,21 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats-base-dnanrange/tree/umd
+[@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats-base-dnanrange/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanrange]: https://github.com/stdlib-js/stats-base-nanrange/tree/umd
+[@stdlib/stats/base/nanrange]: https://github.com/stdlib-js/stats-base-nanrange/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats-base-snanmax/tree/umd
+[@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats-base-snanmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanmin]: https://github.com/stdlib-js/stats-base-snanmin/tree/umd
+[@stdlib/stats/base/snanmin]: https://github.com/stdlib-js/stats-base-snanmin/tree/umd/tree/umd
 
-[@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats-base-srange/tree/umd
+[@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats-base-srange/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
