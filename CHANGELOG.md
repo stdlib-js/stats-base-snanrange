@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-28)
+## Unreleased (2025-01-01)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`7c20166`](https://github.com/stdlib-js/stdlib/commit/7c20166656959d5fb6a56f71b160462cc493b13b) - **docs:** update description _(by Athan Reines)_
 -   [`0b09419`](https://github.com/stdlib-js/stdlib/commit/0b0941957e7e8795f80ccf50c0e668cf0242958a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanrange` [(#4319)](https://github.com/stdlib-js/stdlib/pull/4319) _(by Aayush Khanna)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
